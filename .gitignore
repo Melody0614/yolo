@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# 模型权重与运行产物(首次运行会自动下载)
+*.pt
+*.onnx
+runs/
+outputs/
+*.log
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
